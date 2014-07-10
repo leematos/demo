@@ -11,11 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140710180652) do
+ActiveRecord::Schema.define(version: 20140710221032) do
 
   create_table "champions", force: true do |t|
     t.string "image_url"
     t.string "name"
+  end
+
+  create_table "match_ups", force: true do |t|
   end
 
   create_table "pins", force: true do |t|

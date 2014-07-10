@@ -5,6 +5,7 @@ class PinsController < ApplicationController
 
   def index
     @pins = Pin.all
+    @champions = Champion.all
   end
 
   def show

@@ -1,8 +1,12 @@
 <h1>Please Choose the Champion You Want to Train</h1>
 
-    <% @champions.each do |champion| %>
-    <div class="champion">
+<div id="champions" class="transitions-enabled">
+	<% @champions.each do |champion| %>
+  <div class="box panel panel-default">
+  	<div class="panel-body">
     <%= champion.name %>
     <%= image_tag champion.image_url %>
+  	</div>
   </div>
-      <% end %>
+ <% end %>
+</div>
