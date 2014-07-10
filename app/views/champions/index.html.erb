@@ -1,0 +1,8 @@
+<h1>Please Choose the Champion You Want to Train</h1>
+
+    <% @champions.each do |champion| %>
+    <div class="champion">
+    <%= champion.name %>
+    <%= image_tag champion.image_url %>
+  </div>
+      <% end %>
