@@ -117,4 +117,5 @@ champion_names = ["Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Ashe"
 champion_names.each do |name|
 
 Champion.create!(image_url: "http://ddragon.leagueoflegends.com/cdn/4.10.7/img/champion/#{name}.png", name: name )
+
 end
